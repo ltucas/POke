@@ -1,7 +1,9 @@
 {
+  "buildCommand": "echo 'Static site'",
+  "outputDirectory": ".",
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/((?!data|js|audio|img|vercel.json|index\\.html|.*\\.js|\\..*)[^/]*?)/?$",
       "destination": "/index.html"
     }
   ]

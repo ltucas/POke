@@ -1,0 +1,9 @@
+{
+  "name": "pokemon-style-game",
+  "version": "1.0.0",
+  "description": "A Pokemon-style game",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Static site - no build needed'"
+  }
+}
